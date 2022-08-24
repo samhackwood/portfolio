@@ -83,7 +83,7 @@ var typeTimer = setInterval(function() {
 
 
 
-typeWriter(document.getElementById('demo'), '"This is the real secret of life -- to become completely engaged with what you are doing in there here and now. And instead of calling it work, realise it is play." - Alan Watts')
+typeWriter(document.getElementById('demo'), '"This is the real secret of life -- to become completely engaged with what you are doing in the here and now. And instead of calling it work, realise it is play." - Alan Watts')
 
 // window.addEventListener('scroll', function() {
 // 	var element = document.querySelector('#zen-journal');

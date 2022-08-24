@@ -108,6 +108,7 @@ footer {
 .project-grid {
     height: 200px;
     border: 7px solid green;
+    margin: 0 0 0 16%;
 }
 
 .project-grid:hover {
@@ -136,13 +137,15 @@ footer {
 #projects {
     display: flex;
     flex-wrap: wrap;
+
 }
+
 
 .text-over-image {
     height: 25%;
     position: absolute;
   bottom: 50%;
-  left: 25%;  
+  left: 45%;  
   color: whitesmoke;
   display: none;
   background-color: rgba(0,0,0,0.0);

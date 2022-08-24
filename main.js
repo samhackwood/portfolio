@@ -184,3 +184,5 @@ outerFour.addEventListener("mouseleave", () => {
 //     contentTwo.style.filter = "brightness(10%)"
 //     textTwo.style.display = 'block';
 // })
+
+console.log("https://www.youtube.com/watch?v=dQw4w9WgXcQ")

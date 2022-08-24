@@ -1,0 +1,234 @@
+
+html {
+                scroll-behavior: smooth;
+            }
+header {
+                text-align: center;
+                background: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+                background-size: cover;
+                color: rgb(255, 255, 255);
+            }
+body {
+                background-color: rgb(26, 25, 25);
+                font-family: 'Inconsolata';
+                line-height: 30px;
+                font-size: larger;
+                
+            }
+a {
+                color: rgb(199, 129, 0);
+            }
+h1 {
+                font-size: 200%;
+                color: rgb(177, 0, 53);
+            }
+
+h2 {
+    color:rgb(177, 0, 53);
+    text-decoration: underline;
+}
+h3 {
+    color:rgb(67, 133, 255);
+}
+
+#demo {
+    width: 75%;
+    color:rgb(8, 196, 8);
+    text-shadow: 0px 0px 4px rgb(8, 196, 8), 0px 0px rgb(8, 196, 8);
+    text-align: left;
+}
+
+#demo-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#zen-journal {
+    color:rgb(8, 196, 8);
+    text-shadow: 0px 0px 4px rgb(8, 196, 8), 0px 0px rgb(8, 196, 8);
+}
+
+#sewer-king {
+    color:rgb(8, 196, 8);
+    text-shadow: 0px 0px 4px rgb(8, 196, 8), 0px 0px rgb(8, 196, 8);
+}
+
+#phonograph {
+    color:rgb(8, 196, 8);
+    text-shadow: 0px 0px 4px rgb(8, 196, 8), 0px 0px rgb(8, 196, 8);
+}
+
+#dream-catcher {
+    color:rgb(8, 196, 8);
+    text-shadow: 0px 0px 4px rgb(8, 196, 8), 0px 0px rgb(8, 196, 8);
+}
+
+#profile-pic {
+                margin: 100px 0px 0px 0px;
+                border: 7px solid rgb(199, 129, 0);
+                border-radius: 50%;
+            }
+ul {
+                padding: 10px;
+                background: rgba(0,0,0,0.5);
+            }
+li {
+                display: inline;
+                padding: 0px 10px 0px 10px;
+                color: linen;
+            }
+div {
+                max-width: 75%;
+                padding: 20px;
+                margin: 0 auto;
+                background-color: rgb(34, 34, 34);
+                color: rgb(155, 152, 152);
+                font-size: larger;
+                text-align: center;
+            }
+footer {
+                text-align: center;
+            }
+.hide {
+                    opacity: 0;
+                }
+.show {
+                    opacity: 1;
+                }
+
+/* #project-grid-outer {
+    display: grid;
+} */
+
+.project-grid {
+    height: 350px;
+    border: 7px solid green;
+}
+
+.project-grid:hover {
+   filter:brightness(10%)
+}
+
+
+.skills {
+    height: 100px;
+    filter:invert(75%);
+}
+
+.skills:hover {
+    filter:invert(30%);
+}
+
+#skills-grid {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.div-skills {
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-over-image {
+    height: 55%;
+    position: absolute;
+  bottom: 20%;
+  left: 25%;  
+  color: whitesmoke;
+  display: none;
+  background-color: rgba(0,0,0,0.0);
+}
+
+/* #text {
+    z-index: -1;
+} */
+
+.github {
+    height: 100px;
+    filter:invert(75%);
+    position: absolute;
+    left: 25%;
+}
+
+.link {
+    height: 125px;
+    filter:invert(75%);
+    position: absolute;
+    left: 60%;
+}
+
+.github:hover {
+    filter: invert(25%)
+}
+
+.link:hover {
+    filter: invert(25%)
+}
+
+
+
+.content_img {
+    position: relative;
+    left: -90px;
+    transition-duration: 2s;
+}
+
+
+.outer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.intro {
+    width: 75%;
+    text-align: left;
+    font-size: 26px;
+}
+
+.nav {
+    height: 100px;
+    filter:invert(75%);
+    margin: 10px;
+}
+
+.nav:hover {
+    height: 100px;
+    filter:invert(25%);
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    #react {
+      animation: App-logo-spin infinite 20s linear;
+    }
+
+    @keyframes App-logo-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    }
+
+@media (max-width: 1000px) {
+
+.project-grid {
+    height: 200px;
+                   
+        }
+        
+}

@@ -146,16 +146,6 @@ footer {
 }
 
 
-.text-over-image {
-    height: 25%;
-    position: absolute;
-  bottom: 50%;
-  left: 45%;  
-  color: whitesmoke;
-  display: none;
-  background-color: rgba(0,0,0,0.0);
-  font-size: 20px;
-}
 
 /* #text {
     z-index: -1;
@@ -193,8 +183,8 @@ footer {
 
 
 .outer {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
    align-items: center;
 }
 
@@ -224,24 +214,75 @@ footer {
 
 @media (prefers-reduced-motion: no-preference) {
     #react {
-      animation: App-logo-spin infinite 20s linear;
+        animation: App-logo-spin infinite 20s linear;
     }
-
+    
     @keyframes App-logo-spin {
         from {
-          transform: rotate(0deg);
+            transform: rotate(0deg);
         }
         to {
-          transform: rotate(360deg);
+            transform: rotate(360deg);
         }
-      }
     }
+}
+
+.text-over-image {
+    height: 25%;
+    position: absolute;
+  bottom: 50%;
+  left: 45%;  
+  color: whitesmoke;
+  display: none;
+  background-color: rgba(0,0,0,0.0);
+  font-size: 20px;
+}
 
 @media (max-width: 1000px) {
-
-.project-grid {
-    height: 200px;
-                   
+    
+    .project-grid {
+    height: 100px;
         }
+
+.text-over-image {
+        position: relative;
+        top: -125px;
+        left: 90px;
+        height: 20%;
+        font-size: 8px;
+    }
+.github {
+    height: 20px;
+}
+.link {
+    height: 30px;
+}
+
+body {
+        font-size: 8px;
+    }
+div {
+    max-width: 100%;
+}
+
+.intro {
+        font-size: 12px;
+    }
+.skills {
+    height: 50px;
+}
+.project-grid {
+    margin: 0 0 0 40%;
+}
+#home {
+    max-width: 100%;
+}
+.nav {
+    height: 20px;
+}
+.nav:hover {
+    height: 20px;
+}
+
         
 }

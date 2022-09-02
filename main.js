@@ -31,6 +31,8 @@ const gitHub = document.getElementById("github");
 // }
 // typeWriter()
 
+
+
 var p = document.getElementById('demo');
 
 function typeWriter(element, str) {
